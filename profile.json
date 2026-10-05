@@ -1,0 +1,91 @@
+{
+  "slug": "doushopads",
+  "name": "DouShopAds Skill Lite",
+  "platform": "douyin",
+  "market": "CN",
+  "currency": "CNY",
+  "focus": "抖音電商商品／直播／全域規劃、素材權利与歸因檢查",
+  "modes": [
+    "product",
+    "live",
+    "storewide"
+  ],
+  "workflows": {
+    "product": [
+      "確認巨量千川商家端能力",
+      "核對商品卡與短影片素材",
+      "把達人佣金等納入非廣告成本",
+      "分開支付 GMV 與結算營收"
+    ],
+    "live": [
+      "確認直播排期、主播與客服準備",
+      "核對直播素材及商品供應",
+      "直播間與商品明細不重複加總",
+      "ROI 不等於利潤回報"
+    ],
+    "storewide": [
+      "確認數據含付費或自然成交",
+      "記錄歸因定義與報表日期",
+      "核對退款成熟度",
+      "不由 GMV 推論增量"
+    ]
+  },
+  "creative_tasks": {
+    "product": [
+      "商品實際示範、限制與 CTA 腳本提綱",
+      "不生成虛假用戶見證"
+    ],
+    "live": [
+      "開場→商品演示→疑問回答→行動呼籲",
+      "主播、素材、音樂權利逐項確認"
+    ],
+    "storewide": [
+      "短影片／商品卡／直播資料分開",
+      "內容素材供給與成交口徑一起檢查"
+    ]
+  },
+  "budget_scope": {
+    "product": "equal_split_pilot_accounting_not_live_settings",
+    "live": "equal_split_pilot_accounting_not_live_settings",
+    "storewide": "equal_split_pilot_accounting_not_live_settings"
+  },
+  "storefronts": [
+    "douyin"
+  ],
+  "report_goals": [
+    "sales"
+  ],
+  "notes": [
+    "本工具是中國大陸抖音電商，不是 TikTok Shop／GMV Max。",
+    "不從場景名稱推定計費模式，不承諾平台補貼、流量或效果。"
+  ],
+  "checklist": [
+    "確認商家端實際功能、站點及商品資格",
+    "核對收入、優惠、退款與佣金是否重複扣除",
+    "只使用授權素材與可證實主張",
+    "核對歸因期間、行層級與是否含自然成交"
+  ],
+  "sources": [
+    {
+      "id": "DOUSHOPADS-1",
+      "title": "巨量引擎電商經營",
+      "url": "https://www.oceanengine.com/products/",
+      "checked_on": "2026-10-05",
+      "scope": "CN",
+      "verification": "scope_verified",
+      "summary": "Official page describes product promotion, live-room promotion, contextual delivery and automation. It does not verify a live account."
+    }
+  ],
+  "skill_id": "doushopads-skill-lite",
+  "repo": "ckolpeter/DouShopAds-Skill-Lite",
+  "version": "1.0.0",
+  "source_policy": "Public-source scope snapshot 2026-10-05. Local modes are NOT platform enums. No live capability claim.",
+  "focus_i18n": [
+    "抖音電商商品／直播／全域規劃、素材權利与歸因檢查",
+    "抖音电商商品／直播／全域规划、素材权利与归因检查",
+    "Douyin commerce product/live/storewide planning, creative rights and attribution checks",
+    "抖音ECの商品・ライブ企画、素材権利とアトリビューション確認",
+    "더우인 전자상거래 상품·라이브 기획, 소재 권리 및 기여도 점검"
+  ],
+  "english": "Douyin commerce product/live/storewide planning, creative rights and attribution checks"
+}
